@@ -1,0 +1,12 @@
+html{
+  background-color: aquamarine;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.part1{
+  text-align: center;
+  border: 5px solid red;
+  font-size: 24px;
+}
