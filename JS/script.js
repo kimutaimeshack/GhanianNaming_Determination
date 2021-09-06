@@ -56,7 +56,15 @@
                 if  (yourname.value == '-' || month.value == '-')  {
                      yournamedisp("output").innerHTML = alert("Enter all the information please");
                     }
-                
+                  else if ( f.checked === false || m.checked === true ) {
+                    yournamedisp("output").innerHTML = "<span>" +"Born on :"<br> + findyourname(year.value, month.value, yourname.value)
+                    +"And you are male and your name is :" + malenameonly(year.value, month.value, yourname.value) + "</span>" ;
+                    }
+                else if( f.checked === true || m.checked === false ){
+
+                    yournamedisp("output").innerHTML = "<span>" +"you were born on :" + findyourname(year.value, month.value, yourname.value)
+                     +"And you are female and your name is :" +femalenameonly(year.value, month.value, yourname.value) + "</span>";
+                   }
                 else {
                     yournamedisp("output").innerHTML = "<span>" +"fail all";
                    }
