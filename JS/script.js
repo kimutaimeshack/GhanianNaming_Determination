@@ -15,4 +15,12 @@
                 return (arrayvalues % 4 == 0 && (arrayvalues % 100 != 0 || arrayvalues % 400 == 0));
             }
 
-            
+
+
+        //create array list for adding values
+
+            function arraylist(arrayvalues) {
+                var numbers = [];
+                for(i = 1; i <= arrayvalues; ++i) numbers.push(i);
+                return numbers;
+            }
