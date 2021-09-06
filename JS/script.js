@@ -42,12 +42,24 @@
             }
 
     
-
+        
         
           function findyourname(year, month, yourname) {
                 return [
                     "Sunday", "Monday",  "Tuesday", "Wednesday",   "Thursday","Friday",  "Saturday"
                 ][new Date(month + " " + yourname + ", " + year + " 00:00:00").getDay()];
+            }
+
+
+            function getAnswer() {
+
+                if  (yourname.value == '-' || month.value == '-')  {
+                     yournamedisp("output").innerHTML = ("Enter all the information please");
+                    }
+                
+                else {
+                    yournamedisp("output").innerHTML = "<span>" +"fail all";
+                   }
             }
 
             function yournamedisp(arrayvalues) {
