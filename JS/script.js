@@ -36,10 +36,19 @@
 
        
             function finddaysnumber() {
-                yourname.innerHTML = "<option selected disabled value='-'>Select yourname</option>" + (arraylist(getNumberOfDaysInMonth(month.value, (findleapyear(year.value) ? 1 : 0))).map(el => "<option value='" + el + "'>" + el + "</option>").join(""));
+                yourname.innerHTML = "<option selected disabled value='-'>Select yourname</option>" 
+                + (arraylist(getNumberOfDaysInMonth(month.value, (findleapyear(year.value) ? 1 : 0)))
+                .map(el => "<option value='" + el + "'>" + el + "</option>").join(""));
             }
 
+    
 
+        
+          function findyourname(year, month, yourname) {
+                return [
+                    "Sunday", "Monday",  "Tuesday", "Wednesday",   "Thursday","Friday",  "Saturday"
+                ][new Date(month + " " + yourname + ", " + year + " 00:00:00").getDay()];
+            }
 
             function yournamedisp(arrayvalues) {
                 return document.getElementById(arrayvalues);
