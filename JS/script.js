@@ -46,9 +46,8 @@
         
        
         function malenameonly(year, month, yourname) {
-
                 return [
-                    "mSunday", "mMonday",  "mTuesday",  "mWednesday",  "mThursday",       "mFriday",   "mSaturday"
+                    "Kwasi", "Kwadwo",  "Kwabena",  "Kwaku",  "Yaw",       "Kofi",   "Kwame"
 
 
                 ][new Date(month + " " + yourname + ", " + year + " 00:00:00").getDay()];
@@ -75,8 +74,8 @@
                      yournamedisp("output").innerHTML = alert("Enter all the information please");
                     }
                   else if ( f.checked === false || m.checked === true ) {
-                    yournamedisp("output").innerHTML = "<span>" +"Born on :"<br> + findyourname(year.value, month.value, yourname.value)
-                    +"And you are male and your name is :" + malenameonly(year.value, month.value, yourname.value) + "</span>" ;
+                    yournamedisp("output").innerHTML = "<span>" +"Born on :" + findyourname(year.value, month.value, yourname.value)
+                   document.write("<br>") +"And you are male and your name is :" + malenameonly(year.value, month.value, yourname.value) + "</span>" ;
                     }
                 else if( f.checked === true || m.checked === false ){
 
