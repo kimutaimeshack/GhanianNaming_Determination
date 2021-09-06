@@ -22,9 +22,11 @@
                 return numbers;
             }
 
+            //add the total number of days
+
             month.addEventListener("input", finddaysnumber);
             year.addEventListener("input", finddaysnumber);
-
+       
             function finddaysnumber() {
                 yourname.innerHTML = "<option selected disabled value='-'>Select yourname</option>" + (arraylist(getNumberOfDaysMonth(month.value, (findleapyear(year.value) ? 1 : 0))).map(el => "<option value='" + el + "'>" + el + "</option>").join(""));
             }
