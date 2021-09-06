@@ -12,29 +12,17 @@
     <!---------start landing page ---------->
 
     <section id="home" class="section">
-      <div class="part1">
-       <h1>GhanianNaming_System</h1>
-        <div class=" desc">
-          <!-- knan naming system description -->
-          <p>
-       
-            GhanianNaming_System is a web application that takes a user's birthday and calculates the day of the week 
-            they were born and then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. 
-            Frequently in Ghana, children are given their first name as a 'day name' 
-            which corresponds to the day in the week they were born.
-
-          </p>
-        </div>
-        <div class="userpart">
-       <div id="form">
+        <div>
+        <div id="form">
             <form onsubmit="event.preventDefault(); getAnswer();">
 
-              <select name="gender" id="mygender" required>
-                <option selected disabled value="-">Select Gender</option>
-                <option value="Male" id="male">Male</option>
-                <option value="Female" id="female">Female</option>
-              </select>
 
+
+              <input type="radio" name="gender" value="Male" id="Male"  >Male<br>
+              <input type="radio" name="gender" value="Female" id="Female"  >Female<br>
+               
+          
+              
                 <input type="number" name="year" placeholder="Enter year" required>
                 <select name="month" required>
                     <option selected disabled value="-">Select month</option>
@@ -54,15 +42,19 @@
                 <select name="yourname" required>
                     <option selected disabled value="-">Select day</option>
                 </select>
-                <input type="submit" value="yourname">
-            </form>
-        </div>
-        <p id="output">Enter a date to continue!</p>
+                <input type="submit"  value="Get day">
 
-        </div>
-
-      </div>
+                <!-- <button onclick="myFunction()">Try it</button> -->
           
+            </form>
+
+        </div>
+        <p id="output">Please Fill In The Information Above</p>
+
+
+</div>
+
+
 
     </section>
      <!----------end landing page------------>
