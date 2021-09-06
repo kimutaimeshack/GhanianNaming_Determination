@@ -54,7 +54,7 @@
             function getAnswer() {
 
                 if  (yourname.value == '-' || month.value == '-')  {
-                     yournamedisp("output").innerHTML = ("Enter all the information please");
+                     yournamedisp("output").innerHTML = alert("Enter all the information please");
                     }
                 
                 else {
