@@ -54,11 +54,8 @@
             }
         function femalenameonly(year, month, yourname) {
 
-                return [
-
-                    "fSunday", "fMonday",  "fTuesday",  "fWednesday",  "fThursday", "fFriday",   "fSaturday"
-
-                ][new Date(month + " " + yourname + ", " + year + " 00:00:00").getDay()];
+                return ["Akosua", "Adwoa",  "Abenaa",  "Akua",  "Yaa", "Afua",   "Ama" ]
+                    [new Date(month + " " + yourname + ", " + year + " 00:00:00").getDay()];
             }
           function findyourname(year, month, yourname) {
                 return [
@@ -75,7 +72,7 @@
                     }
                   else if ( f.checked === false || m.checked === true ) {
                     yournamedisp("output").innerHTML = "<span>" +"Born on :" + findyourname(year.value, month.value, yourname.value)
-                   document.write("<br>") +"And you are male and your name is :" + malenameonly(year.value, month.value, yourname.value) + "</span>" ;
+                  +"And you are male and your name is :" + malenameonly(year.value, month.value, yourname.value) + "</span>" ;
                     }
                 else if( f.checked === true || m.checked === false ){
 
