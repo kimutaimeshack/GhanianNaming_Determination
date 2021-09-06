@@ -44,11 +44,29 @@
     
         
         
+       
+        function malenameonly(year, month, yourname) {
+
+                return [
+                    "mSunday", "mMonday",  "mTuesday",  "mWednesday",  "mThursday",       "mFriday",   "mSaturday"
+
+
+                ][new Date(month + " " + yourname + ", " + year + " 00:00:00").getDay()];
+            }
+        function femalenameonly(year, month, yourname) {
+
+                return [
+
+                    "fSunday", "fMonday",  "fTuesday",  "fWednesday",  "fThursday", "fFriday",   "fSaturday"
+
+                ][new Date(month + " " + yourname + ", " + year + " 00:00:00").getDay()];
+            }
           function findyourname(year, month, yourname) {
                 return [
                     "Sunday", "Monday",  "Tuesday", "Wednesday",   "Thursday","Friday",  "Saturday"
                 ][new Date(month + " " + yourname + ", " + year + " 00:00:00").getDay()];
             }
+
 
 
             function getAnswer() {
