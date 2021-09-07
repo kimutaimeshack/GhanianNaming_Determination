@@ -75,10 +75,9 @@
                   +"\n your name is\n :" + '\n'+ malenameonly(year.value, month.value, yourname.value) + "</span>" ;
                     }
                 else if( f.checked === true || m.checked === false ){
-
-                    yournamedisp("output").innerHTML = "<span>" +"you were born on :" + findyourname(year.value, month.value, yourname.value)
-                     +"And you are female and your name is :" +femalenameonly(year.value, month.value, yourname.value) + "</span>";
-                   }
+                    yournamedisp("output").innerHTML = "<span>" +"Born on \n :\n" + findyourname(year.value, month.value, yourname.value)
+                  +"\n your name is\n :" + '\n'+ femalenameonly(year.value, month.value, yourname.value) + "</span>" ;
+                    }
                 else {
                     yournamedisp("output").innerHTML = "<span>" +"fail all";
                    }
