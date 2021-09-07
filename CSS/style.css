@@ -25,3 +25,9 @@ padding: 20px;
 font-weight: bold;
 color: hotpink;
 }
+
+
+
+  #form {
+    border-bottom: 1px double blue;
+  }
