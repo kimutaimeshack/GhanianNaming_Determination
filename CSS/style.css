@@ -4,3 +4,9 @@ html{
   margin: 0 auto;
   padding: 1em;
 }
+
+
+.container{
+text-align: center;
+border: 30px solid red;
+}
