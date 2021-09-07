@@ -17,7 +17,7 @@ MESHACK KIMUTAI
 ![alt text](https://github.com/kimutaimeshack/GhanianNaming_Determination/blob/main/img/ghananian.png)
 *********
 ## project live link
-Here is a working live link : https://kimutaimeshack.github.io/Meshack_Portfolio/
+Here is a working live link : https://kimutaimeshack.github.io/GhanianNaming_Determination/
 
 *********
 ## Development
