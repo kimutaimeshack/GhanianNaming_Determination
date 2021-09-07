@@ -36,7 +36,7 @@
 
        
             function finddaysnumber() {
-                yourname.innerHTML = "<option selected disabled value='-'>Select yourname</option>" 
+                yourname.innerHTML = "<option selected disabled value='-'>Select day</option>" 
                 + (arraylist(getNumberOfDaysInMonth(month.value, (findleapyear(year.value) ? 1 : 0)))
                 .map(el => "<option value='" + el + "'>" + el + "</option>").join(""));
             }
