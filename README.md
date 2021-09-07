@@ -29,7 +29,7 @@ Here is a working live link : https://kimutaimeshack.github.io/GhanianNaming_Det
 ### Setup Instruction
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal 
-2. Use this command to clone (`https://github.com/kimutaimeshack/GhanianNaming_Determination.git`)
+2. Use this command to clone (`git clone https://github.com/kimutaimeshack/GhanianNaming_Determination.git`)
 3. This will clone the repositoty into your local folder
 *********
 ### How to contribute
@@ -48,7 +48,7 @@ To fix a bug or enhance an existing module, follow these steps:
 ## Technologies Used
 * HTML
 * CSS
-* javascript
+* Javascript
 *********
 ## License
 This project is under: 
