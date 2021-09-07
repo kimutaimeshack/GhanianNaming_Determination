@@ -8,5 +8,7 @@ html{
 
 .container{
 text-align: center;
-border: 30px solid red;
+border: 30px solid greenyellow;
+border-radius: 18px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
