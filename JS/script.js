@@ -47,7 +47,7 @@
        
         function malenameonly(year, month, yourname) {
                 return [
-                    "Kwasi", "Kwadwo",  "Kwabena",  "Kwaku", "Yaw", "Kofi",   "Kwame"
+                    "Kwasi", "Kwadwo",  "Kwabena",  "Kwaku",  "Yaw", "Kofi",   "Kwame"
 
 
                 ][new Date(month + " " + yourname + ", " + year + " 00:00:00").getDay()];
@@ -59,13 +59,13 @@
             }
           function findyourname(year, month, yourname) {
                 return [
-                    "Sunday", "Monday",  "Tuesday", "Wednesday", "Thursday","Friday",  "Saturday"
+                    "Sunday", "Monday",  "Tuesday", "Wednesday",   "Thursday","Friday",  "Saturday"
                 ][new Date(month + " " + yourname + ", " + year + " 00:00:00").getDay()];
             }
 
 
 
-            function getAnswer() {
+            function Birthdayfuction() {
 
                 if  (yourname.value == '-' || month.value == '-')  {
                      yournamedisp("output").innerHTML = alert("Enter all the information please");
