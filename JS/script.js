@@ -71,8 +71,8 @@
                      yournamedisp("output").innerHTML = alert("Enter all the information please");
                     }
                   else if ( f.checked === false || m.checked === true ) {
-                    yournamedisp("output").innerHTML = "<span>" +"Born on :" + findyourname(year.value, month.value, yourname.value)
-                  +"And you are male and your name is :" + malenameonly(year.value, month.value, yourname.value) + "</span>" ;
+                    yournamedisp("output").innerHTML = "<span>" +"Born on \n :\n" + findyourname(year.value, month.value, yourname.value)
+                  +"\n your name is\n :" + '\n'+ malenameonly(year.value, month.value, yourname.value) + "</span>" ;
                     }
                 else if( f.checked === true || m.checked === false ){
 
