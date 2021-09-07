@@ -16,7 +16,8 @@ padding: 20px;
 }
 
 .inputclass{
-  size: 20px;
+  border: 4px solid rgb(231, 142, 142);
+  font-size: 19px;
 
 }
 
