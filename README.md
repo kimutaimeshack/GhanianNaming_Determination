@@ -48,13 +48,14 @@ To fix a bug or enhance an existing module, follow these steps:
 ## Technologies Used
 * HTML
 * CSS
+* javascript
 *********
 ## License
 This project is under: 
 
 The MIT licence
 
-Click  [Here](https://github.com/kimutaimeshack/Meshack_Portfolio/blob/main/LICENSE) to view the LICENSE
+Click  [Here](https://github.com/kimutaimeshack/GhanianNaming_Determination/blob/main/LICENSE) to view the LICENSE
 
 
 
