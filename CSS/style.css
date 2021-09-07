@@ -11,4 +11,16 @@ text-align: center;
 border: 30px solid greenyellow;
 border-radius: 18px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: honeydew;
+padding: 20px;
+}
+
+.inputclass{
+  size: 20px;
+
+}
+
+#output {
+font-weight: bold;
+color: hotpink;
 }
